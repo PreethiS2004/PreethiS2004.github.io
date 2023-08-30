@@ -6,21 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="1" width="100%" >
-       <tr>
-        <td>Click to add te:<br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Full Name:<input type="text" maxlength="30" placeholder="Enter the fullname"><br><br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp User Name:<input type="text" maxlength="30" placeholder="Enter the username"><br><br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Password:<input type="password" maxlength="30" placeholder="Enter the password"><br><br>
+    <form action="https://www.ethnus.com">
+        <label for="fn">Full Name :</label><input type="text" name="fn" placeholder="Enter your fullname" required/><br/>
+        <label for="un">User Name :</label><input type="text" name="ln" placeholder="Enter the username" required/><br/>
+        <label for="pw">Password :</label><input type="password" name="pw" placeholder="Enter the password"required/><br/>
+        <label for="pw">Re Password :</label><input type="password" name="pw" placeholder="Re enter the password"required/><br/>
+        <label for="add">Address :</label><input type="text" name="address" placeholder="Enter your address"required/><br/>
+        <label for="age">Age :</label><input type="number" name="age" placeholder="Enter your age"required/><br/>
+        <label for="gender">Gender :</label><select>
+            <option>Male</option><option>Female</option>
+        </select><br/>
+        <input type="submit" value="Save"/>   
 
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Re Password:<input type="password" maxlength="30" placeholder="Re enter the password"><br><br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Address:<input type="text" maxlength="30" placeholder="Enter the address"><br><br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Age:<input type="number" maxlength="3" placeholder="Enter the age"><br><br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Gender:<select type="dropbox"><option value="Male">Male</option><option value="Female">Female</option></select><br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button>Save</button>
-
-        </td>
-       </tr>
-    </table>
+    </form>
 </body>
 </html>
