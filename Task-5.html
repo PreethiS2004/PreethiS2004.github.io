@@ -6,42 +6,80 @@
     <title>Document</title>
 </head>
 <body>
-    click to add <h1 style="color:Blue;">Registration form</h1>
-    <table border="1"  width="90%">
-        <tr >
-            
-            <th>&nbsp&nbsp&nbsp First Name &nbsp&nbsp&nbsp</th>
-            <td><input type="text" style="width: 410px;"></td>
-        </tr>
-        <tr>
-            <th>&nbsp&nbsp&nbsp Last Name &nbsp&nbsp&nbsp</th>
-            <td><input type="text"></td>
-        </tr>
-        <tr>
-            <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Email &nbsp&nbsp&nbsp</th>
-            <td><input type="text"></td>
-        </tr>
-        <tr>
-            <th>&nbsp&nbsp&nbsp Password &nbsp&nbsp&nbsp</th>
-            <td><input type="password"></td>
-        </tr>
-        <tr>
-            <th>Re-enter Password</th>
-            <td><input type="password"></td>
-        </tr>
-        <tr>
-            <th rowspan="2">&nbsp&nbsp&nbsp Gender: &nbsp&nbsp&nbsp</th>
-            <td><input type="radio" value="male">Male</td>
-        </tr>
-        <tr>
-            <td><input type="radio" value="female">Female</td>
-        </tr>
-        <tr>
-            <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Age: &nbsp&nbsp&nbsp</th>
-            <td><input type="number" ></td>
-        </tr>
+    <form>
+        <h1 style="color:blue;text-align: center;"  >Registration form</h1>
+        <table border="1">
+            <tr>
+                <th width="200">First Name</th>
+                <td ><input type="text" size="50" required/></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" size="50"required/></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email" size="50"required/></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" size="50" required/></td>
+            </tr>
+            <tr>
+                <th>Re-enter Password</th>
+                <td><input type="password"size="50" required/></td>
+            </tr>
+            <tr>
+                <th rowspan="2">Gender:</th>
+                <td><input type="radio" value="Male">Male</td>
+            </tr>
+            <tr>
+                <td><input type="radio" value="Female">Female</td>
+            </tr>
+            <tr>
+                <th>Age:</th>
+                <td><input type="text" size="50" required/></td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td><input type="tel" size="50" required/></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                 <td>
+                    <textarea rows="5" cols="43"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td><input type="text" size="50" required/></td>
+            </tr>  
+            <tr>
+                <th>Country</th>
+                <td><select>
+                    <option>Choose your country</option>
+                    <option>India</option>
+                    <option>America</option>
+                    <option>China</option>
+                    <option>Africa</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>Languages known</th>
+                <td><input type="checkbox">English
+                    <input type="checkbox">Kannada
+                    <input type="checkbox">Hindi
+                    <input type="checkbox">Telugu
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"  required/><label>Hereby I declare all the given details are true</label>
+            </tr>
+            <tr>
 
-            
-    </table>
+            </tr>
+        </table><br/>
+        <input type="submit" value="Register">
+    </form>
 </body>
 </html>
