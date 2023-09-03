@@ -5,30 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .content-table{
+        table,td,th {
+            
             border-collapse: collapse;
             margin: 25px 0;
-            min-width: 400px;
+            min-width: 300px;
+            min-height: 300px;
         }
-        .content-table thead tr{
+        th{
             background-color: rgb(39, 176, 114);
             text-align:left;
             color: white;
         }
-        .content-table td{
-            
-            padding-left:7px ;
-            padding-right:100px;
-        }
-        .content-table tbody tr :nth-of-type(even){
-            background-color: grey;
+        tr:nth-child(odd){
+             background-color:rgb(222, 219, 219);
         }
     </style>
 </head>
 <body>
-    <table class="content-table">
+    <table >
         <thead>
-            <tr>
+            <tr >
                 <th>Company</th>
                 <th>Contact</th>
                 <th>Country</th>
@@ -40,7 +37,7 @@
                 <td>Germany</td>
             </tr>
             <tr>
-                <td>Bergkunds snabbko<sup>..</sup>p</td>
+                <td>Bergkunds snabbko</td>
                 <td>Christina Berglund</td>
                 <td>Sweden</td>
             </tr>
