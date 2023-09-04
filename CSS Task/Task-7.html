@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+       #i1{
+          background-color: rgb(119, 18, 50);
+
+          justify-content: center;
+          align-items: center;
+          padding:10px;
+          border-width: 20px;
+          border-style: solid;
+          border-left-width: 100px;
+          border-right-width: 100px;
+          border-color: rgba(160, 4, 74, 0.804);
+          color: white;
+       }
+       input[type=submit]{
+            background-color: #f0f5f0;
+            color: rgb(11, 11, 11);
+            padding: 10px 20px;
+            margin: 8px 4px;
+            font-size: larger;
+            border-radius: 10px;
+            position: relative;
+            left: 30px;
+            right: 30px;
+            cursor: pointer;
+            width: 80%;
+        }
+    </style>
 </head>
 <body>
-    <table>
+    <table id="i1">
         <tr>
             <td>Name:</td>
             <td><input type="text" name="name" placeholder="your name" size="30" required/></td>
@@ -46,6 +74,9 @@
         <tr>
             <td>About:</td>
             <td><textarea rols="2"cols="27" type="text" placeholder="Write about yourself..."></textarea>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Register"></td>
         </tr>
     </table>
     
