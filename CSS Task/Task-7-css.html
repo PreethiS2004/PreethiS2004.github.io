@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        
        #i1{
+          white-space: pre;
           background-color: rgb(119, 18, 50);
 
           justify-content: center;
@@ -19,6 +21,7 @@
           color: white;
           position: relative;
           top: 50px;
+          width: 600px;
        }
        input[type=submit]{
             background-color: #f0f5f0;
@@ -36,31 +39,31 @@
     </style>
 </head>
 <body>
-    <table align="center" id="i1">
+    <table  id="i1">
         
         <tr>
-            <td>Name:</td>
-            <td><input type="text" name="name" placeholder="your name" size="30" required/></td>
+            <td style="text-align: center;">Name:</td>
+            <td><input type="text" name="name" placeholder="your name"  required/></td>
         </tr>
         <tr>
-            <td>Email</td>
-            <td><input type="email" name="em" placeholder="your email" size="30"required/></td>
+            <td style="text-align: center;">Email:</td>
+            <td><input type="email" name="em" placeholder="your email" required/></td>
         </tr>
         
         <tr>
-            <td>Password:</td>
-            <td><input type="password" name="pw" size="30" required/></td>
+            <td style="text-align: center;">      Password:</td>
+            <td><input type="password" name="pw"  required/></td>
         </tr>
         <tr>
-            <td>Phone Number:</td>
-            <td><input type="tel" name="num" size="30" required/></td>
+            <td style="text-align: center;">               Phone Number:</td>
+            <td><input type="tel" name="num"  required/></td>
         </tr>
         <tr>
-            <td>Gender:</td>
+            <td style="text-align: center;">  Gender:</td>
             <td>Male:<input type="radio">Female:<input type="radio">Other:<input type="radio"></td>
         </tr>
         <tr>
-            <td>language</td>
+            <td style="text-align: center;">    language</td>
             <td><select>
                 <option>Select language</option>
                 <option>English</option>
@@ -71,12 +74,12 @@
             </select></td>
         </tr>
         <tr>
-            <td>Zip Code:</td>
-            <td><input type="text" size="30" required/></td>
+            <td style="text-align: center;">      Zip Code:</td>
+            <td><input type="text"  required/></td>
         </tr>
         <tr>
-            <td>About:</td>
-            <td><textarea rols="2"cols="27" type="text" placeholder="Write about yourself..."></textarea>
+            <td style="text-align: center;">About:</td>
+            <td><textarea rols="2"cols="18" type="text" placeholder="Write about yourself..."></textarea>
         </tr>
         <tr>
             <td colspan="2"><input type="submit" value="Register"></td>
