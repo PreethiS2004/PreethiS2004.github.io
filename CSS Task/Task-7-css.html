@@ -9,7 +9,7 @@
        #i1{
           white-space: pre;
           background-color: rgb(119, 18, 50);
-
+        font-family: 
           justify-content: center;
           align-items: center;
           padding:10px;
@@ -21,7 +21,7 @@
           color: white;
           position: relative;
           top: 50px;
-          width: 600px;
+          width: 700px;
        }
        input[type=submit]{
             
@@ -33,32 +33,33 @@
             font-weight: 600;
             border-radius: 10px;
             position: relative;
-            left: 30px;
-            right: 30px;
+            left: 70px;
+            right:0px;
             cursor: pointer;
             width: 80%;
         }
     </style>
 </head>
 <body>
+    <center>
     <table  id="i1">
         
         <tr>
             <td style="text-align: center;">Name:</td>
-            <td><input type="text" name="name" placeholder="your name"  required/></td>
+            <td><input type="text" name="name" placeholder="your name" size="23" required/></td>
         </tr>
         <tr>
             <td style="text-align: center;">Email:</td>
-            <td><input type="email" name="em" placeholder="your email" required/></td>
+            <td><input type="email" name="em" placeholder="your email" size="23"  required/></td>
         </tr>
         
         <tr>
             <td style="text-align: center;">      Password:</td>
-            <td><input type="password" name="pw"  required/></td>
+            <td><input type="password" name="pw" size="23"  required/></td>
         </tr>
         <tr>
             <td style="text-align: center;">               Phone Number:</td>
-            <td><input type="tel" name="num"  required/></td>
+            <td><input type="tel" name="num" size="23"  required/></td>
         </tr>
         <tr>
             <td style="text-align: center;">  Gender:</td>
@@ -77,16 +78,16 @@
         </tr>
         <tr>
             <td style="text-align: center;">      Zip Code:</td>
-            <td><input type="text"  required/></td>
+            <td><input type="text" size="23"  required/></td>
         </tr>
         <tr>
-            <td style="text-align: center;">About:</td>
-            <td><textarea rols="2"cols="18" type="text" placeholder="Write about yourself..."></textarea>
+            <td style="text-align: center;"> About:</td>
+            <td><textarea rols="2"cols="21" type="text" placeholder="Write about yourself..." ></textarea>
         </tr>
         <tr>
             <td colspan="2"><input type="submit" value="Register"></td>
         </tr>
     </table>
-    
+</center>
 </body>
 </html>
